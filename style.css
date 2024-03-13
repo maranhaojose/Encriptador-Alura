@@ -199,32 +199,35 @@ body {
     #input {
         position: absolute;
         display: flex;
-        left: 70px;
+        left: 170px;
     }
 
     .info {
         margin: 0;
         position: absolute;
-        top: 740px;
-        left: 70px;
+        top: 680px;
+        left: 170px;
     }
 
     .buttons {
+        position: absolute;
         display: flex;
-        justify-content: space-around;
+        align-items: center;
+        top: 710px;
+        right: 50px;
+        gap: 15px;
     }
 
     .btn-cript {
         position: relative;
         height: 67px;
-        right: 290px;
-        top: 67px;
+   
     }
 
     .btn-descript {
         position: relative;
         height: 67px;
-        left: 195px;
+
     }
 
     #output {
@@ -256,19 +259,24 @@ body {
     }
 
     .btn-copiar {
-        position: relative;
+        position: absolute;
         top: 40px;
     }
     
     .rodape {
-        position: relative;
+        position: absolute;
         width: 100%;
-        top: 1205px;
+        top: 1225px;
         padding: 15px;
     }
 }
 
 @media screen and (max-width: 767px) {
+
+    body{
+        zoom: 0.41;
+        max-height: 100%;
+    }
 
     .cabecalho {
         position: absolute;
@@ -290,15 +298,18 @@ body {
     }
 
     .buttons {
-        position: relative;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        gap: none;
     }
 
     .btn-cript {
         position: absolute;
         height: 100px;
         width: 800px;
-        right: -190px;
-        top: 200px;
+        top: 270px;
         font-size: 32px;
     }
 
@@ -306,8 +317,8 @@ body {
         position: absolute;
         width: 800px;
         height: 100px;
-        right: -170px;
-        top: 330px;
+        left: 20px;
+        top: 400px;
         font-size: 32px;
     }
 
@@ -315,7 +326,7 @@ body {
         position: absolute;
         height: 400px;
         width: 800px;
-        left: 80px;
+        left: 90px;
         top: 1200px;
     }
     .imgm {
