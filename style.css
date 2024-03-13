@@ -5,13 +5,21 @@
     padding: 0;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #F3F5FC;
 }
 
 .cabecalho {
+    position: relative;
     width: 600px;
-    padding: 20px;
+    padding: 10px;
+    top: 20px;
 }
 
 #input {
@@ -22,7 +30,7 @@ body {
     width: 600px;
     font-family: "inter", sans-serif;
     font-size: 32px;
-    left: 365px;
+    left: 120px;
     top: 200px;
     resize: none;
     box-shadow: 0 0 0 0;
@@ -39,8 +47,8 @@ body {
     display: flex;
     position: absolute;
     top: 390px;
-    left: 370px;
-    top: 680px;
+    left: 75px;
+    top: 615px;
     gap: 8px;
 }
 
@@ -48,8 +56,8 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 710px;
-    left: 350px;
+    top: 645px;
+    left: 60px;
     margin: 0 10px;
     font-family: "inter", sans-serif;
     font-size: 16px;
@@ -58,7 +66,7 @@ body {
 .btn-cript {
     background-color: #49108B;
     color: white;
-    width: 380px;
+    width: 320px;
     height: 60px;
     border: none;
     border-radius: 20px;
@@ -69,7 +77,7 @@ body {
 .btn-descript {
     background-color: #D8DFE8;
     color: #49108B;
-    width: 380px;
+    width: 320px;
     height: 60px;
     border: 2px solid #49108B;
     border-radius: 20px;
@@ -86,8 +94,8 @@ body {
     position: absolute;
     border-radius: 32px;
     width: 420px;
-    height: 780px;
-    left: 75%;
+    height: 710px;
+    left: 65%;
     top: 20px;
     box-shadow: 2px 10px 10px 2px rgba(0, 0, 0, 0.303);
 }
@@ -142,12 +150,12 @@ body {
 .btn-copiar {
     background-color: #D8DFE8;
     color: #49108B;
-    width: 370px;
+    width: 320px;
     height: 60px;
     border: 2px solid #49108B;
     border-radius: 20px;
     position: relative;
-    top: 500px;
+    top: 438px;
     gap: 10px;
     cursor: pointer;
 }
@@ -167,8 +175,8 @@ body {
     color: white;
     font-family: "inter", sans-serif;
     font-size: 16px;
-    height: 47px;
-    top: 730px;
+    height: 48px;
+    top: 680px;
     gap: 10px;
 }
 
